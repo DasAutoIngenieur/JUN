@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+}
+/* Navbar underline hover animation */
+.navbar-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Change color to suit your design */
+    display: inline-block; /* Make the link inline-block */
+    position: relative; /* Position relative for pseudo-element */
+}
+
+/* Style for underline on hover */
+.navbar-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; /* Initial width 0 */
+    height: 1px; /* Height of the underline */
+    background-color: #333; /* Color of the underline */
+    transition: width 0.3s ease; /* Adjust transition duration */
+}
+
+/* Adjust underline width on hover */
+.navbar-link:hover::after {
+    width: 100%; /* Width 100% to match the width of the link */
+}
+/* scale-up animation */
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+/* Keyframes */
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  /* Styles for Exo 2 font with different weights */
+
+/* Thin (100) */
+.exo-2-thin {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Extra-Light (200) */
+.exo-2-extra-light {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Light (300) */
+.exo-2-light {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular (400) */
+.exo-2-regular {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium (500) */
+.exo-2-medium {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Semi-Bold (600) */
+.exo-2-semi-bold {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Bold (700) */
+.exo-2-bold {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Extra-Bold (800) */
+.exo-2-extra-bold {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Black (900) */
+.exo-2-black {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.text-customYellow {
+  color: #ffdd00; /* Custom Yellow Color */
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
